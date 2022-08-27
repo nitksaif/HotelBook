@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.hotel.HotelBook.entities.Hotel;
-import com.hotel.HotelBook.entities.Hotels;
 import com.hotel.HotelBook.entities.Reservation;
-import com.hotel.HotelBook.entities.Reservations;
 import com.hotel.HotelBook.service.HotelService;
 import com.hotel.HotelBook.service.ReservationService;
 

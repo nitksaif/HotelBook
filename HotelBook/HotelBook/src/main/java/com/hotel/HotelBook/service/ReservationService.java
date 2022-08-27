@@ -3,14 +3,11 @@ package com.hotel.HotelBook.service;
 
 import com.hotel.HotelBook.entities.Hotel;
 import com.hotel.HotelBook.entities.Reservation;
-import com.hotel.HotelBook.entities.Reservations;
 import com.hotel.HotelBook.repository.HotelRepository;
 import com.hotel.HotelBook.repository.ReservationRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

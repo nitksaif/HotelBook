@@ -8,14 +8,16 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * Created by yvladimirov on 31.03.15.
- */
 @Entity
 @Table(name = "Hotel")
 public class Hotel implements Serializable {
 	
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
     @GeneratedValue
     private int id;
     

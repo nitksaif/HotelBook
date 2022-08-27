@@ -7,9 +7,8 @@ import org.springframework.stereotype.Service;
 
 import com.hotel.HotelBook.entities.Hotel;
 import com.hotel.HotelBook.repository.HotelRepository;
-
 import java.util.List;
-import java.util.Map;
+
 
 /**
  * Created by yvladimirov on 31.03.15.

@@ -1,6 +1,7 @@
 package com.hotel.HotelBook.entities;
 
 import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,8 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "product")
-public class Product implements Serializable {
+@Table(name = "MYUSER")
+public class User implements Serializable  {
 
     /**
 	 * 
@@ -18,14 +19,11 @@ public class Product implements Serializable {
 
 	@Id
     @GeneratedValue
-	private int id;
-
+    private int id;
+    
 	@Column
-	private String name;
-
-	@Column
-	private Integer price;
-
+    private String name;
+	
 	public int getId() {
 		return id;
 	}
@@ -41,14 +39,4 @@ public class Product implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public Integer getPrice() {
-		return price;
-	}
-
-	public void setPrice(Integer price) {
-		this.price = price;
-	}
-
-
 }
